@@ -2,12 +2,12 @@ import logo from './public/logo.svg'
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-gray-900 grid justify-items-center text-white text-2xl p-24">
+    <div className="grid min-h-screen justify-items-center bg-gray-900 p-24 text-2xl text-white">
       <div className="grid place-content-center text-center">
         <img
           src={logo}
           alt="logo"
-          className="w-[100%] animate-bounce mx-auto"
+          className="mx-auto w-[100%] animate-bounce"
         />
         <div className="space-y-4">
           <p>
